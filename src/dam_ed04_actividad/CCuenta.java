@@ -43,9 +43,21 @@ public class CCuenta {
         this.saldo = saldo;
     }
 
+    /**
+     * Atributo para guardar el nombre del propietario de la cuenta.
+     */
     private String nombre;
+    /**
+     * Atributo para guardar el número de cuenta.
+     */
     private String cuenta;
+    /**
+     * Atributo para guardar el saldo de la cuenta.
+     */
     private double saldo;
+    /**
+     * Atributo para guardar el tipo de interés de la cuenta.
+     */
     private double tipoInterés;
 
     /**
