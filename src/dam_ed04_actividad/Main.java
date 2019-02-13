@@ -1,18 +1,18 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Paquete de las clases para la gestión de los datos de una cuenta bancaria.
  */
-
 package dam_ed04_actividad;
 
 /**
- *
- * @author nacho
+ * Clase principal para la aplicación de gestión de cuentas bancarias.
+ * @author nacho agudo
+ * @version 1.0
+ * @since 14.Feb.2019
  */
 public class Main {
 
     /**
-     *
+     * Método principal.
      * @param args
      */
     public static void main(String[] args) {
@@ -23,6 +23,10 @@ public class Main {
         operativa_cuenta(cantidad);
     }
 
+    /**
+     * Método que recoge la operativa del objeto cuenta1.
+     * @param cantidad - La cantidad de dinero con la que se va a operar. 
+     */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
